@@ -3,10 +3,19 @@
     margin: 0;
     padding: 0;
 }
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 960px;
+    
+}
+
+
 body {
     font-family: georgia, serif;
     font-size: 14px; 
     line-height: 20px;
+    
 }
 
 p {
@@ -64,6 +73,18 @@ article h1 {
     margin-top: 35px;
     text-decoration:none;
 }
+article h2 {
+    font-family:georgia;
+    font-size: 19px;
+    line-height: 30px;
+    font-weight:normal;       
+}
+img {
+    width: 100%;
+
+
+}
+    
 
 .button {
     border-radius:15px;
@@ -71,6 +92,7 @@ article h1 {
     padding: 5px 100px;
    
 }
+
 footer {
     clear:right;
     font-size: 10px;
